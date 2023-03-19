@@ -177,7 +177,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--iris);
   background: var(--cornflower);
-  cursor: pointer;
+  background-color: var(--cloud)
 }
 
 .filters:hover,
