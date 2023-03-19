@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--slate);
 }
 :root {
   --iris: #4d5ae5;
@@ -22,6 +22,7 @@ body {
 .header-navigation {
 }
 .header-logo-web {
+  font-family: inherit;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -32,6 +33,7 @@ body {
   color: var(--iris);
 }
 .logo-studio {
+  font-family:inherit
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -67,7 +69,7 @@ body {
   color: var(--ocean);
 }
 
-.header-email {
+.header-address-item {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -75,22 +77,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.header-email:hover,
-.header-email:focus {
+.header-address-item:hover,
+.header-address-item:focus {
   color: var(--ocean);
 }
 
-.header-phone-number {
+.header-address {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
-.header-phone-number:hover,
-.header-phone-number:focus {
-  color: var(--ocean);
 }
 
 .hero-img {
@@ -120,6 +113,58 @@ body {
   background-color: var(--ocean);
 }
 
+.second-section-name {
+}
+
+.second-section-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.section-item-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.third-section-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.fourth-section-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.fourth-section-list-item {
+  background-color: var(--white);
+}
+
+.fourth-section-list-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
 .filters {
   font-family: inherit;
   font-weight: 500;
@@ -140,11 +185,20 @@ body {
   background: var(--ocean);
 }
 
+.project-cards-item-name{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
 .footer {
   background-color: var(--navy-blue);
 }
 
 .footer-studio {
+  font-family:inherit
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
